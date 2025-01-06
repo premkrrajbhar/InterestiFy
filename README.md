@@ -8,7 +8,7 @@ A user-friendly web application that computes the Simple Interest (SI), Principa
 
 ## 🔗 Live Demo
 
-Check out the app live here: **[Simple Interest App Live Demo]()**
+Check out the app live here: **[Simple Interest App Live Demo](https://premkrrajbhar.github.io/Simple-Interest-App/)**
 
 ## 📋 Features
 
