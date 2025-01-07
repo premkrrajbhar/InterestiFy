@@ -6,15 +6,17 @@ let resetBtn = document.getElementById("resetBtn");
 let intAmt = document.getElementById("intAmt");
 let priAmt = document.getElementById("priAmt");
 let totalAmt = document.getElementById("totalAmt");
+let popupBox = document.getElementById("popupBox")
+let closePopupBtn = document.getElementById("closePopupBtn");
 
 calBtn.addEventListener("click", () => {
     num1Value = Number(num1.value);
     num2Value = Number(num2.value);
     num3Value = Number(num3.value);
 
-    if (!num1Value || !num2Value || !num3Value) {
-        alert("Please Enter All Details")
-        return
+    if (!num1.value || !num2.value || !num3.value) {
+        popupBox.style.display = "flex";
+        return;
     }
 
     let si = (num1Value * num2Value * num3Value) / 100;
@@ -28,6 +30,10 @@ calBtn.addEventListener("click", () => {
     totalAmt.style.display = "block";
     totalAmt.textContent = "Total Value: " + total;
 
+})
+
+closePopupBtn.addEventListener("click", () => {
+    popupBox.style.display = "none";
 })
 
 resetBtn.addEventListener("click", () => {
