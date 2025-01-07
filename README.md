@@ -13,7 +13,7 @@ Check out the app live here: **[Simple Interest App Live Demo](https://premkrraj
 ## 📋 Features
 
 - **Real-Time Calculation**: Calculates the Simple Interest, Principal Amount, and Total Value as soon as the "Calculate" button is clicked.
-- **Input Validation**: Ensures that all fields are filled before calculating. Alerts the user if any input is missing.
+- **Input Validation**: Ensures that all fields are filled before calculating. Display a popup to the user if any input is missing.
 - **Reset Functionality**: Clears all input fields and hides the results for a fresh start.
 - **Responsive Design**: Optimized for desktops, tablets, and mobile devices to ensure a seamless user experience.
 - **User-Friendly Interface**: Easy-to-use interface with clear input fields, action buttons, and well-displayed results.
