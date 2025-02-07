@@ -11,9 +11,9 @@ let popupBox = document.getElementById("popupBox");
 let closePopupBtn = document.getElementById("closePopupBtn");
 
 calBtn.addEventListener("click", () => {
-  num1Value = Number(num1.value);
-  num2Value = Number(num2.value);
-  num3Value = Number(num3.value);
+  num1Value = parseFloat(num1.value);
+  num2Value = parseFloat(num2.value);
+  num3Value = parseFloat(num3.value);
 
   if (!num1.value || !num2.value || !num3.value) {
     popupBox.style.display = "flex";
