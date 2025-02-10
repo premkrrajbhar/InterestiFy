@@ -30,6 +30,25 @@ Check out the app live here: **[InterestiFy](https://premkrrajbhar.github.io/Int
 2. **Calculate Simple Interest**: Click the **"Calculate"** button to see the calculated **Interest Earned**, **Principal Amount**, and **Total Value**.
 3. **Reset Fields**: Click the **"Reset"** button to clear all input fields and hide the displayed results.
 
+## 📂 Project Structure
+
+```
+├── README.md
+├── assets/
+│   ├── favicon/
+│   │   └── InterestiFy-favicon.png
+│   └── screenshot/
+│       └── screenshot.jpg
+├── css/
+│   └── style.css
+├── image/
+│   └── bg-image.jpg
+├── index.html
+└── script/
+    └── script.js
+
+```
+
 ## 📥 How to Run Locally
 
 - Step 1: Clone the repository:
